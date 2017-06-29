@@ -29,9 +29,9 @@ gulp.task('server', function() {
 
 // Compile LESS files from /less into /css
 gulp.task('less', function() {
-    var f = filter(['*', '!mixins.less', '!variables.less']);
+    var f = filter(['**']);
     return gulp.src('less/*.less')
-        .pipe(f)
+        //.pipe(f)
         .pipe(less())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(gulp.dest('css'))
@@ -95,7 +95,7 @@ gulp.task('browserSync', function() {
 })
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js', 'server'], function() {
+gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() {
     gulp.watch('less/*.less', ['less']);
     gulp.watch('css/*.css', ['minify-css']);
     gulp.watch('js/*.js', ['minify-js']);
