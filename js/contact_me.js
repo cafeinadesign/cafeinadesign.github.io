@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://email-site.herokuapp.com/contact_me.php",
+                url: "https://analectic-howls.000webhostapp.com/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
