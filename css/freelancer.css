@@ -92,7 +92,7 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-@media (min-width: 768px) {
+@media (min-width: 435px) {
   header {
     background-image: url("../img/portfolio/cafe3.jpg");
   }
@@ -107,7 +107,7 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 435px) {
   .imagem {
     display: none;
   }
