@@ -1,0 +1,1 @@
+.view,body,header,html{height:100%}@media (max-width:740px){header{height:100vh}}.top-nav-collapse{background-color:#000!important}.navbar:not(.top-nav-collapse){background:#3e2723!important}@media (max-width:768px){.navbar:not(.top-nav-collapse){background:#000!important}}video{min-width:100%;min-height:100%;width:auto;height:auto;top:50%;left:50%;transform:translate(-50%,-50%)}
