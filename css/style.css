@@ -5,9 +5,23 @@ header,
   height: 100%;
 }
 
+header img.cafeina {
+  margin: 0 auto;
+  height: 128px;
+  width: 128px;
+}
+
 @media (max-width: 740px) {
   header {
-    height: 100vh;
+    min-height: 100vh;
+  }
+  header div.view div.mask div.container div div h3.display-4 {
+    font-size: 2em;
+  }
+  header img.cafeina {
+    margin-top: 96px;
+    height: 96px;
+    width: 96px;
   }
 }
 
