@@ -16,7 +16,10 @@ header img.cafeina {
     min-height: 100vh;
   }
   header div.view div.mask div.container div div h3.display-4 {
-    font-size: 2em;
+    font-size: 1.98em;
+  }
+  header div.view div.mask div.container div div h5.mb-4 {
+    font-size: 0.9em;
   }
   header img.cafeina {
     margin-top: 96px;
