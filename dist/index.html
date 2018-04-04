@@ -51,8 +51,10 @@
             </nav>
             <div class="view">
                 <video poster="video/Double_Espresso.jpg" playsinline autoplay muted loop>
-                    <source src="video/Double_Espresso_480.mp4" type="video/mp4" media="all and (max-width:480px)">
-                    <source src="video/Double_Espresso.mp4" type="video/mp4" media="all and (max-width:480px)">
+                    <source type="video/mp4" media="(max-width: 575.98px)" src="video/Double_Espresso_576.mp4">
+                    <source type="video/mp4" media="(min-width: 576px) and (max-width: 767.98px)" src="video/Double_Espresso_800.mp4">
+                    <source type="video/mp4" media="(min-width: 768px) and (max-width: 1280px)" src="video/Double_Espresso_1280.mp4">
+                    <source type="video/mp4" src="video/Double_Espresso.mp4">
                 </video>
                 <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
                     <div class="container px-md-3 px-sm-0">
